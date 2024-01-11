@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
+	<title>Baltimore</title>
+</head>
+<body>
+  <div class="border-top"></div>
+<h1 id="cityheader">Baltimore</h1>
+<nav class="navbar">
+	<a href="index.html">About</a>
+    <a href="columbia.html">Columbia</a>
+    <a href="baltimore.html">Baltimore</a>
+    <a href="annapolis.html">Annapolis</a>
+    <a href="visit.html">Visit</a>
+	</nav>
+
+<section id="section">
+	<p>
+		Baltimore, Maryland, is renowned for its unique blend of historical charm and contemporary attractions. Home to the Baltimore Ravens, the city takes pride in its passionate sports culture, and the Ravens, an integral part of the community, contribute to the city's lively and spirited atmosphere. With their hopes set on a superbowl this year, the Ravens have taken the NFL by storm. Lead by their MVP calibar quarterback, Lamar Jackson. Beyond the stadium, Baltimore's nightlife pulsates with energy, offering a diverse array of entertainment options from lively bars to music venues from Federal Hill to the Power Plant. The city's culinary scene is equally captivating, boasting a delectable array of seafood, including the iconic Maryland crab cakes, and a fusion of diverse cuisines that reflect the city's eclectic character. Baltimore's charm lies not only in its historical landmarks but also in the dynamic synergy of its sports, nightlife, and culinary experiences, making it a captivating destination for residents and visitors alike.
+	</p>
+</section>
+
+
+<h2>About Baltimore</h2>
+<div class="container">
+<table class="table">
+  <tr>
+    <th>Category</th>
+    <th>Information</th>
+  </tr>
+  <tr>
+    <td>Year Incorporated</td>
+    <td>1796</td>
+  </tr>
+  <tr>
+    <td>Population</td>
+    <td>Approximately 585,708 (as of 2022)</td>
+  </tr>
+  <tr>
+    <td>Region</td>
+    <td>Mid-Atlantic</td>
+  </tr>
+  <tr>
+    <td>Classification</td>
+    <td>Urban</td>
+  </tr>
+  <tr>
+    <td>Average Income</td>
+    <td>$51,000 (estimated median household income)</td>
+  </tr>
+</table>
+
+<div class="gallery-container">
+  <div class="slides">
+    <div class="slide"><img src="ravens.jfif" alt="Baltimore Ravens Logo"></div>
+    <div class="slide"><img src="rstadiium.jfif" alt="Ravens Stadium"></div>
+    <div class="slide"><img src="powerplantbalt.jfif" alt="Power Plant"></div>
+  </div>
+
+
+</div>
+
+
+	
+
+
+
+
+	<footer>
+  <p>Visit our Social Media for More Information:</p>
+  <a href="https://X.com/example" target="_blank">X</a>
+  <a href="https://instagram.com/example" target="_blank">Instagram</a>
+  <p>Source:<a href="https://data.census.gov/" target="_blank">US Census Bureau</a>
+</footer>
+
+<script>
+
+let currentIndex = 0;
+const intervalTime = 5000; // Set the interval time in milliseconds (e.g., 5000 for 5 seconds)
+
+function changeSlide(direction) {
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slide').length;
+  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+  slides.style.transform = `translateX(${-currentIndex * 100}%)`;
+}
+
+function autoSlide() {
+  setInterval(() => {
+    changeSlide(1);
+  }, intervalTime);
+}
+
+// Start automatic sliding when the page loads
+autoSlide();
+</script>
+
+</body>
+</html>
