@@ -1,0 +1,293 @@
+                    
+ .navbar {
+      background: linear-gradient(to right, #FF0000, #FFFF00); 
+      padding: 10px;
+      text-align: right;
+      font-size: 22px;
+  
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      margin-right: 20px;
+      width: 100%;
+    }
+
+   
+    .navbar a {
+      display: inline-block;
+      padding: 5px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+        background-color: none;
+        color: white; 
+        border-radius: 5px; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif, helvetica;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+}
+    
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+footer {
+  background-color: none;
+  color: black;
+  text-align: right;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#myheader {
+  text-align: left;
+  color: black;
+  font-size: 50px;
+}
+
+h1::first-letter {
+  color: yellow;
+}
+
+.mdsection h3 {
+  text-align: center;
+  font-family: sans-serif; 
+}
+
+
+.mdsection p {
+  text-align: center;
+}
+.mdtable {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.mdtable a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+.mdtable a:hover {
+  color:black;
+}
+
+
+
+.border-top {
+  height: 20px; 
+  background-image: url('maryland-state-flag-graphic.png'); 
+  background-size: cover; 
+  background-repeat: repeat-x; 
+}
+
+
+
+body {
+  background: linear-gradient(to right, #FF0000, #FFA500, #FFFF00); 
+  margin: 0;
+  position: relative;
+  display:flex;
+}
+
+.mdsection p,
+aside p {
+  margin: 10px 0; 
+  padding: 10px; 
+  background-color: none; 
+  color: #333; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  .mdh3 {
+    font-size:28px;
+    font-family: sans-serif;
+  }
+
+  #mdflag {
+      width: 150px;
+      position: fixed;
+      bottom: 10px; 
+      left: 10px; 
+      border-radius: 5px; 
+      
+    }
+
+     h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+
+  
+    }
+
+    .table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 100px;
+     
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: none;
+    }
+
+
+    .gallery-container {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: black;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: orange;
+    }
+
+    .error {
+      color: #ff0000;
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+
+#userForm {
+  float: left; 
+  width: 45%; 
+  margin-right: 5%; 
+}
+
+#mdflag {
+  float: right; 
+  width: 25%; 
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+ aside {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #bmoresection {
+
+    font-size: 16px;
+  }
+
+   body {
+    margin: 0; 
+  }
+
+  #mdflag1 {
+    display: block; 
+    width: 100px; 
+    height: auto; 
+    margin: 10px 0 0 10px; 
+    float: left; 
+  }
+
+  #myheader {
+    margin-left: 120px; 
+  }
